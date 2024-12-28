@@ -1,4 +1,4 @@
-import FooterImage from '../images/luca-logo.png'
+import FooterImage from '../images/logo.png'
 
 function Footer() {
   return (
