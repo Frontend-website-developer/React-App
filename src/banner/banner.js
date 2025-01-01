@@ -1,5 +1,4 @@
 import './banner.css';
-import Header from '../header/header.js'
 import lucaImage from '../images/banner-image.png';
 
 function Banner() {
@@ -7,7 +6,7 @@ function Banner() {
 
       <div className="banner relative md:pt-[20px] pb-10 md:pb-[100px]">
           <div className='container mx-auto'>
-              <Header />
+
           </div>     
               <div className='lg:flex md:items-center md:pt-11 justify-between gap-10 px-5 md:px-0'>
                   <div className='lg:w-1/2 text-white md:ml-11 mb-10'>
