@@ -28,9 +28,14 @@ const Header = () => {
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white">
-          {isOpen ? (
+          {isOpen && (
           <ImCross />
-        ) : ( <GiHamburgerMenu />)
+        )
+      }
+      {!isOpen &&(
+        ( <GiHamburgerMenu />)
+      )
+
       }
        
           </button>

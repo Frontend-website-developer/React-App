@@ -9,11 +9,11 @@ import AboutImage from '../images/about-us-image.png'
 export default function About(){
   return(    
       <div className="container">
-        <div className="flex py-11 items-center">
-            <div className="w-1/2"> 
+        <div className="md:flex py-11 items-center">
+            <div className="md:w-1/2"> 
                 <img className="" src={AboutImage} />
             </div>  
-            <div className="w-1/2">
+            <div className="md:w-1/2">
                 <h2 className='font-semibold'>About <span className="text-blue-700">Us</span></h2>
                   
                 <p>Vivamus ac tincidunt mi. Nullam sagittis mi ligula, vitae tincidunt augue rutrum a. Etiam imperdiet quis odio a varius. Donec a dolor orci. Nam non efficitur enim. Ut auctor mi id lacus vehicula feugiat. In convallis vulputate mauris, vitae tempus lacus eleifend in. Sed ultrices quam efficitur imperdiet condimentum. Nunc sit amet ultrices lacus.</p>
