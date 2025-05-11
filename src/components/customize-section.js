@@ -2,7 +2,7 @@ import CustomizeImage from '../images/customize.jpg';
 
 function CustomizeLuca() {
   return (
-      <div className="container mx-auto mt-10 mb-10">
+      <div className="container mx-auto mt-14 mb-14">
         <div className="md:flex items-center text-left mt-10 mb-10 justify-between gap-x-4">            
               <div className="md:w-1/2 font-light text-[#414041]">
                   <h2 className="md:text-[50px] font-semibold mb-5">Customize<br /> your <span className='text-blue-700 font-bold'>Brand Name</span></h2>

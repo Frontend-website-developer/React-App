@@ -21,10 +21,10 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-bold"><img className="white-logo" src={logo} alt="" /></div>
         <div className="hidden md:flex space-x-4 text-white">
-          <Link to='/'>Home</Link>
-          <Link to='/about'>About</Link>
-          <Link to='/services'>Services</Link>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/' className='px-5'>Home</Link>
+          <Link to='/about' className='px-5'>About</Link>
+          <Link to='/services' className='px-5'>Services</Link>
+          <Link to='/contact' className='px-5'>Contact</Link>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white">

@@ -13,7 +13,7 @@ export default function Contact(){
         <p className="text-center mb-3">Phone: 000-000-000</p>
         <p className="text-center mb-3">Email Address: dummy@email.com</p>
         <p className="text-center">Address: Vivamus ac tincidunt mi. Nullam sagittis mi ligula, vitae tincidunt augue rutrum a</p>
-        <form className="">
+        <form className="w-2/3 m-auto">
             <div className="md:flex gap-10 items-center pt-10 pb-5">
                 <div className="md:w-1/2">
                     <input type="text" className="border-2 px-5 py-2 rounded w-full mb-5 bg-slate-100" placeholder='Your Name' />

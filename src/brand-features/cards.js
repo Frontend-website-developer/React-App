@@ -24,12 +24,6 @@ export const feature = [
         image: featureThirdImage,
         heading: 'User Profiles',
         paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.'
-    },
-    {
-        id: 3,
-        image: featureThirdImage,
-        heading: 'User Profiles third',
-        paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.'
     }
 ];
 

@@ -4,7 +4,7 @@ import lucaImage from '../images/luca-tablet-image.png';
 function BrandDescription() {
   return (
       <div className="container mx-auto sm:px-5">
-        <div className="banner-content md:flex items-center text-left mt-10 mb-10 gap-10">
+        <div className="banner-content md:flex items-center text-left mt-14 mb-14 gap-10">
             <div className="md:w-1/2">
                 <img src={lucaImage} alt="banner" />
             </div> 

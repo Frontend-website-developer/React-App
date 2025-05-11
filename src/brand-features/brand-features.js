@@ -12,7 +12,7 @@ function LucaFeatures() {
    </div>   
   )
   return (
-    <div class="container mx-auto">
+    <div class="container mx-auto mt-14 mb-14">
       <div class="md:flex">
           {featureItems}
       </div>   

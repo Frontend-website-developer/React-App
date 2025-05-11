@@ -4,11 +4,11 @@ import lucaImage from '../images/banner-image.png';
 function Banner() {
   return (
 
-      <div className="banner relative md:pt-[20px] pb-10 md:pb-[100px]">
+      <div className="banner relative pt-10 md:pt-[100px] pb-10 md:pb-[100px]">
           <div className='container mx-auto'>
 
           </div>     
-              <div className='lg:flex md:items-center md:pt-11 justify-between gap-10 px-5 md:px-0'>
+              <div className='lg:flex md:items-center justify-between gap-10 px-5 md:px-0'>
                   <div className='lg:w-1/2 text-white md:ml-11 mb-10'>
                      <div className='flex justify-end'>
                         <div>

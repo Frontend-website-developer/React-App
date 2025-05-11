@@ -7,7 +7,7 @@ import testimonialImage from '../images/testimonial-image.png'
 
 function Testimonials() {
   return (
-    <div className="container mx-auto mt-10 mb-10">
+    <div className="container mx-auto mt-14 mb-14">
        <h2 className='text-center uppercase font-semibold text-blue-700'>Testimonials</h2>
       <Swiper
         modules = {[Navigation, Pagination]}
